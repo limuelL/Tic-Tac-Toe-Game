@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="game__container">
+
+        <div class="gameOpt__container">
+            
+            <div class="gameOpt-menu" id="gameOpt-menu">
+                <h5 id="play-text">Play Game?</h5>
+                <div class="option__box">
+                    <button type = button id="yesBtn">Yes</button>
+                    <button type = button id="noBtn">No</button>
+                </div>
+            </div>
+        </div>
+
+
+        <h6>TIC TAC TOE GAME</h6>
+        <div class="text" id="text"></div>
+
+        <div class="box__container">
+            <div class="firstRow">
+                <div class="choiceBox" id="choice1"></div>
+                <div class="choiceBox" id="choice2"></div>
+                <div class="choiceBox" id="choice3"></div>
+            </div>
+            <div class="secondRow">
+                <div class="choiceBox" id="choice4"></div>
+                <div class="choiceBox" id="choice5"></div>
+                <div class="choiceBox" id="choice6"></div>
+            </div>
+            <div class="thirdRow">
+                <div class="choiceBox" id="choice7"></div>
+                <div class="choiceBox" id="choice8"></div>
+                <div class="choiceBox" id="choice9"></div>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="button__container">
+            <div class="choiceButton">
+                <button type="button" class="pressButton" id="xButton">Choose </button>
+                <strong>:</strong>
+                <p>X</p>
+            </div>
+            <div class="choiceButton">
+                <button type="button" class="pressButton" id="oButton">Choose </button>
+                <strong>:</strong>
+                <p>O</p>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+</body>
+</html>
